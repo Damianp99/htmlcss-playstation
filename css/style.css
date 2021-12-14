@@ -41,9 +41,24 @@ img{
 }
 
 
-.bottom-header{
+.bottom-header ul{
+    list-style-type: none;
+    display: inline;   
 }
 
+.bottom-header ul li{
+    display: inline;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+.bottom-header ul li img{
+    width: 10px;
+}
+
+.bottom-header ul li .lens{
+    width: 30px;
+}
 
 
 /* SPOTLIGHT */
@@ -164,6 +179,8 @@ footer ul{
 
 
 
+
+
 /* BTN */
 
 .btn-buy{
@@ -181,8 +198,16 @@ footer ul{
     border-radius: 20px;
 }
 
+.btn-dark{
+    background-color: #363636;
+    border-radius: 20px;
+}
 
 /* text hidden  */
+
+.bottom-header .show-lg{
+    display: none;
+}
 
 .show-md{
     display: none;
@@ -199,5 +224,16 @@ footer ul{
 
     .col-hidden{
         display: block;
+    }
+ }
+
+
+@media (min-width: 992px) {
+    .bottom-header .show-lg{
+        display: inline;
+    }
+
+    .hide-lg{
+        display: none;
     }
  }
