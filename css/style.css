@@ -57,6 +57,10 @@ img{
 
 /* MAIN */
 
+.text-blue{
+    color: dodgerblue
+    
+}
 
 
 /* ICONS */
@@ -79,3 +83,9 @@ img{
     background-color: #CD3D0F;
     border-radius: 20px;
 }
+
+.btn-lightblue{
+    background-color: #2D64E6;
+    border-radius: 20px;
+}
+
