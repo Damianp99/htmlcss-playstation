@@ -7,12 +7,11 @@
 img{
     max-width: 100%;
     height: auto;
+
 }
 
 
-/* * div{
-    border: 1px solid goldenrod;
-} */
+
 
 
 /* BG COLORS */
@@ -25,21 +24,20 @@ img{
     background-color: white;
 }
 
+.bg-lightgray{
+    background-color: #BEBCBB;
+}
+
 
 /* HEADER */
 .top-header{
 }
 
-#logo-playstation{
-    padding-left: 20px;
-}
+
 .bottom-header{
 }
 
-#logo-sony{
-    width: 100px;
-    padding: 10px;
-}
+
 
 /* SPOTLIGHT */
 
@@ -62,6 +60,52 @@ img{
     
 }
 
+.take-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.playstation-four h2{
+    font-size: 40px;
+}
+
+.playstation-four h3{
+    font-size: 30px;
+}
+
+.playstation-four span{
+   font-weight: 600;
+   color: gray;
+   font-size: 20px;
+}
+
+.playstation-four span a{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+
+/* LOGO */
+#logo-sony{
+    width: 100px;
+    padding: 10px;
+}
+
+#logo-playstation{
+    padding-left: 20px;
+}
+
+#taketwo-logo{
+    width: 300px;
+    padding-top: 40px ; 
+}
+
+#ps-plus-logo{
+    width: 300px;
+}
 
 /* ICONS */
 
@@ -89,3 +133,7 @@ img{
     border-radius: 20px;
 }
 
+.btn-white{
+    background-color: #D9DADC;
+    border-radius: 20px;
+}
