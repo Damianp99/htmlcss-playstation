@@ -28,6 +28,13 @@ img{
     background-color: #BEBCBB;
 }
 
+.bg-darkblue{
+    background-color: #161C3B;
+}
+
+.bg-blue{
+    background-color: #00439C;
+}
 
 /* HEADER */
 .top-header{
@@ -81,13 +88,30 @@ img{
    font-size: 20px;
 }
 
+.playstation-four p{
+    font-weight: 600;
+    color: gray;
+    font-size: 20px;
+ }
+
 .playstation-four span a{
     font-weight: 500;
     font-size: 16px;
 
 }
 
+.social-media h2{
+    font-size: 40px;
+}
 
+
+footer ul{
+    list-style-type:none;
+}
+
+.bottom-footer p a{
+    text-decoration: underline;
+}
 /* LOGO */
 #logo-sony{
     width: 100px;
@@ -107,6 +131,23 @@ img{
     width: 300px;
 }
 
+#ps-now-logo{
+    width: 300px;
+    
+}
+
+.logoplay-footer{
+    width: 150px;
+    filter: brightness(0) invert(1);
+   
+}
+.language-globe{
+    width: 20px;
+}
+
+.sie-logo{
+    width: 150px;
+}
 /* ICONS */
 
 .fa-bars{
@@ -120,6 +161,8 @@ img{
 .bars-padding{
     padding-right: 20px;
 }
+
+
 
 /* BTN */
 
@@ -137,3 +180,24 @@ img{
     background-color: #D9DADC;
     border-radius: 20px;
 }
+
+
+/* text hidden  */
+
+.show-md{
+    display: none;
+}
+
+.col-hidden{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .show-md{
+        display: block
+    }
+
+    .col-hidden{
+        display: block;
+    }
+ }
