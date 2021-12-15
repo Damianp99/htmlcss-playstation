@@ -67,12 +67,18 @@ img{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    background-position: top center;
+    
 }
 
 .returnal-text{
     width: 300px;
     height: auto;
+    
+}
+
+.pad-spotlight{
+    padding-top: 200px;
 }
 
 /* MAIN */
@@ -86,7 +92,8 @@ img{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    background-position: top center;
+    
 }
 
 .playstation-four h2{
@@ -127,6 +134,8 @@ footer ul{
 .bottom-footer p a{
     text-decoration: underline;
 }
+
+
 /* LOGO */
 #logo-sony{
     width: 100px;
